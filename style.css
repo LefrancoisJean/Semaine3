@@ -1,0 +1,68 @@
+/*---------------------------------------------*\
+              Mise en page de mon CV
+\*---------------------------------------------*/
+
+/* Image de fond */
+
+body{
+    background: url(soleil.gif) no-repeat scroll top left, url(sand.jpg) fixed;
+}
+
+/* entete de la page */
+
+header{
+	  font: 1.5em "liberation Serif",serif;
+	  color: rgb(17,107,138);
+    text-align: center;
+    text-shadow: 3px 3px 3px rgb(99,124,138);
+}
+
+/* Corps de la page */
+
+main {
+  display : flex;
+}
+
+.paragraphe{
+  width: 35%;
+}
+
+h2 {
+  text-align: center;
+  text-decoration: underline;
+}
+
+ul {
+  padding: 10px,10px,10px,10px;
+  margin-right: 20px;
+  text-align: justify;
+  list-style-type: armenian;
+}
+
+li {
+  padding: 5px;
+}
+
+/* Pied de page */
+
+footer{
+    text-align: center;
+    font: 0.8em "liberation Serif",serif;
+}
+
+/* Personalisation des liens */
+
+a:link{
+    color: black;
+    text-decoration: none;
+}
+
+a:visited{
+    color: black;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #000080;
+    text-decoration: underline;
+}
